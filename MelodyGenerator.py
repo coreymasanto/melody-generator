@@ -30,15 +30,15 @@ def main():
         verseList = generateVerse(unaryTransitionMatrix, binaryTransitionMatrix, ternaryTransitionMatrix, vn1, vn2, vn3)
 
         print("Generating chorus notes...")
-        cn1 = 61
-        cn2 = 56
-        cn3 = 68
+        cn1 = 55
+        cn2 = 57
+        cn3 = 59
         chorusList = generateChorus(unaryTransitionMatrix, binaryTransitionMatrix, ternaryTransitionMatrix, cn1, cn2, cn3)
 
         print("Generating bridge notes...")
-        bn1 = 57
+        bn1 = 69
         bn2 = 69
-        bn3 = 61
+        bn3 = 68
         bridgeList = generateBridge(unaryTransitionMatrix, binaryTransitionMatrix, ternaryTransitionMatrix, bn1, bn2, bn3)
 
         print("Creating MIDI file...")
